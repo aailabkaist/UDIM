@@ -15,6 +15,9 @@ UDIM reduces the loss landscape inconsistency between source domain and unknown 
 As unknown domains are inaccessible, these domains are empirically crafted by perturbing instances from the source domain dataset. 
 In particular, by aligning the loss landscape acquired in the source domain to the loss landscape of perturbed domains, 
 we expect to achieve generalization grounded on these flat minima for the unknown domains.
+
+Our implementation code is largely dependent on the code of [SAGM (CVPR2023)](https://github.com/Wang-pengfei/SAGM). We thank the authors for providing these codes.
+
 <p align="center">
   <img src="https://github.com/aailabkaist/UDIM/assets/20755743/b445eeba-02a9-40d4-9f9d-fc7241b3058f" alt="Image Description">
 </p>
