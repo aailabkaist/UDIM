@@ -20,8 +20,8 @@ we expect to achieve generalization grounded on these flat minima for the unknow
 </p>
 
 ## Reproduce
-For reproduce the results of LCMAT-S, we provide a bash file for running `main.py`, which located at: 
+To reproduce the results of UDIM, we provide a bash file, which located at: 
 ```
-/bash/LCMat_XXX.sh
+/bash/udim_pacs_xxx.sh
 ```
-Here, XXX is dataset. You can get results in `result/` directory.
+Here, XXX is a specific experimental setting. 
